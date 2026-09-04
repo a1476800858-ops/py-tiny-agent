@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging/build artifacts
+*.egg-info/
+build/
+dist/
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Runtime state and generated traces
+.claw/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
